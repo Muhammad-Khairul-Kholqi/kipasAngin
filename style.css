@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.setting {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    cursor: pointer;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.on {
+    background-color: green;
+    padding: 10px;
+    border-radius: 50%;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.off {
+    background-color: red;
+    padding: 10px;
+    border-radius: 50%;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.one,
+.two,
+.three {
+    background-color: gray;
+    padding: 10px 14px;
+    border-radius: 50%;
+    color: #fff;
+    font-family: Arial,
+    Helvetica,
+    sans-serif;
+    font-weight: bold;
+}
+
+.puter-baling-normal {
+    animation: spin 4s linear infinite;
+    transform-origin: center center;
+}
+
+.puter-baling-satu {
+    animation: spin 1s linear infinite;
+    transform-origin: center center;
+}
+
+.puter-baling-dua {
+    animation: spin 2s linear infinite;
+    transform-origin: center center;
+}
+
+.puter-baling-tiga {
+    animation: spin 3s linear infinite;
+    transform-origin: center center;
+}
+
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.kipas-angin {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.kipas-angin img {
+    width: 200px;
+}
